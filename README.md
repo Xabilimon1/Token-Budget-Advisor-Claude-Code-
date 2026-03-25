@@ -60,14 +60,14 @@ npx token-budget-advisor --global
 ### Option 2 — Clone directly into your project
 
 ```bash
-git clone https://github.com/Xabilimon1/Token-Budget-Advisor-Claude-Code-.git \
+git clone https://github.com/Xabilimon1/TBA-Token-Budget-Advisor-Claude-Code.git \
   .claude/skills/token-budget-advisor
 ```
 
 ### Option 3 — Git submodule (for teams)
 
 ```bash
-git submodule add https://github.com/Xabilimon1/Token-Budget-Advisor-Claude-Code-.git \
+git submodule add https://github.com/Xabilimon1/TBA-Token-Budget-Advisor-Claude-Code.git \
   .claude/skills/token-budget-advisor
 ```
 

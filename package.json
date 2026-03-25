@@ -15,9 +15,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Xabilimon1/Token-Budget-Advisor-Claude-Code-.git"
+    "url": "https://github.com/Xabilimon1/TBA-Token-Budget-Advisor-Claude-Code.git"
   },
-  "homepage": "https://github.com/Xabilimon1/Token-Budget-Advisor-Claude-Code-#readme",
+  "homepage": "https://github.com/Xabilimon1/TBA-Token-Budget-Advisor-Claude-Code#readme",
   "bin": {
     "token-budget-advisor": "./bin/install.js",
     "tba": "./bin/install.js"
