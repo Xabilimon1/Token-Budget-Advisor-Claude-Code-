@@ -40,18 +40,21 @@ No guessing. No over-engineering. You decide.
 
 TBA is a Claude Code skill — a folder you place inside `.claude/skills/` in your project (or globally in `~/.claude/skills/`).
 
-### Option 1 — Clone directly into your project (recommended)
+### Option 1 — npx (one command, no clone needed)
+
+```bash
+# Install in current project (.claude/skills/)
+npx token-budget-advisor
+
+# Install globally (~/.claude/skills/, all projects)
+npx token-budget-advisor --global
+```
+
+### Option 2 — Clone directly into your project
 
 ```bash
 git clone https://github.com/Xabilimon1/Token-Budget-Advisor-Claude-Code-.git \
   .claude/skills/token-budget-advisor
-```
-
-### Option 2 — Copy manually
-
-```bash
-mkdir -p .claude/skills
-cp -r token-budget-advisor/ .claude/skills/token-budget-advisor/
 ```
 
 ### Option 3 — Git submodule (for teams)
