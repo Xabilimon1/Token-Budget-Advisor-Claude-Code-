@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# JetBrains IDEs
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Temp files
+/tmp/
+*.tmp
+_tba_*.txt
