@@ -1,8 +1,15 @@
 <p align="center">
+  <img src="assets/logo.svg" alt="TBA Logo" width="130">
+</p>
+
+<p align="center">
   <img src="assets/banner.svg" alt="TBA — Token Budget Advisor for Claude Code" width="100%">
 </p>
 
-> A Claude Code skill that intercepts your prompt, estimates token consumption, and lets you choose **how deep** you want the answer — before Claude responds.
+<p align="center">
+  A Claude Code skill that intercepts your prompt, estimates token consumption,<br>
+  and lets you choose <strong>how deep</strong> you want the answer — before Claude responds.
+</p>
 
 ---
 
@@ -70,24 +77,11 @@ git submodule add https://github.com/Xabilimon1/Token-Budget-Advisor-Claude-Code
 
 ## How it works
 
-```
-Your prompt
-    |
-    v
-[SKILL.md] -- TBA intercepts the flow
-    |
-    v
-[token_estimator.py] -- Analyzes the prompt
-    |
-    +--> Detects: language, content type, complexity
-    +--> Estimates: input tokens + response tokens per level
-    |
-    v
-Claude presents 4 depth options
-    |
-    v
-You choose --> Claude responds at that depth
-```
+<p align="center">
+  <img src="assets/flow.svg" alt="TBA workflow: Your Prompt → TBA Analyzes → You Choose → Claude Responds" width="100%">
+</p>
+
+TBA intercepts every prompt before Claude responds. It runs a lightweight estimator, presents 4 depth options with token estimates, waits for your choice, and then instructs Claude to respond at exactly that level.
 
 ### The estimator engine
 
@@ -124,6 +118,10 @@ Complexity determines the response multiplier range used to estimate how long Cl
 ---
 
 ## Depth levels
+
+<p align="center">
+  <img src="assets/depth-levels.svg" alt="TBA depth levels: 25% Essential, 50% Moderate, 75% Detailed, 100% Exhaustive" width="100%">
+</p>
 
 | Level | Target length | What's included | What's omitted |
 |---|---|---|---|
@@ -163,6 +161,7 @@ token-budget-advisor/
 +-- examples/
 |   +-- sample_prompts.json   <- Sample prompts with expected analysis output
 |
++-- assets/                   <- Banner, logo, and diagrams
 +-- README.md                 <- This file
 +-- LICENSE                   <- MIT
 ```
