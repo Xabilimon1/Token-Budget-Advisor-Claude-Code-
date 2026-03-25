@@ -1,4 +1,6 @@
-# TBA — Token Budget Advisor for Claude Code
+<p align="center">
+  <img src="assets/banner.svg" alt="TBA — Token Budget Advisor for Claude Code" width="100%">
+</p>
 
 > A Claude Code skill that intercepts your prompt, estimates token consumption, and lets you choose **how deep** you want the answer — before Claude responds.
 
